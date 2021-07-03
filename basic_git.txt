@@ -1,0 +1,33 @@
+C:\Users\yun95>git
+
+C:\Users\yun95>git --version
+
+C:\Users\yun95>git config --global user.name SeonhwaYUN
+
+C:\Users\yun95>git config --global user.email tori8360@gmail.com
+
+C:\Users\yun95>cd c:\Education  //git txt파일 저장 폴더 일단 파일 만들고 cmd하기
+
+c:\Education>git clone https://github.com/SeonhwaYUN/Inflearn_Spring.git  //깃허브에서 주소 복사해서 주소연결
+
+c:\Education>cd Inflearn_Spring
+
+c:\Education\Inflearn_Spring>git add index_html.txt  //index_html파일 추가
+
+c:\Education\Inflearn_Spring>git commit -m "Add Text File [index_html.txt]"
+
+c:\Education\Inflearn_Spring>git push  //git push 까먹지 말기!!!!!!!
+
+Select an authentication method for 'https://github.com/':
+  1. Web browser (default)
+  2. Personal access token
+option (enter for default): 1
+info: please complete authentication in your browser...
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 449 bytes | 449.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/SeonhwaYUN/Inflearn_Spring.git
+   440f8df..acb5dbf  main -> main  //옵션의 의미는 모르겠지만 일단 1번 선택!!
